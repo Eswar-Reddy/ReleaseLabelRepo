@@ -9,4 +9,12 @@
         <members>Employee__c</members>
         <name>CustomObject</name>
     </types>
+    <types>
+        <members>Employee__c.Employee_Created_filed_modified_in_org_38</members>
+        <name>WorkflowAlert</name>
+    </types>
+    <types>
+        <members>Employee__c.EmployeeRule1</members>
+        <name>WorkflowRule</name>
+    </types>
 </Package>
