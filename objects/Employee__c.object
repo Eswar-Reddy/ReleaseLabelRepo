@@ -55,6 +55,71 @@
     <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>EmployeeAbout__c</fullName>
+        <description>Baic Info</description>
+        <externalId>false</externalId>
+        <label>EmployeeAbout</label>
+        <length>200</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>EmployeeDOB__c</fullName>
+        <description>DOB</description>
+        <externalId>false</externalId>
+        <label>EmployeeDOB</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>EmployeeEmail__c</fullName>
+        <description>Email</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Registered email id</inlineHelpText>
+        <label>EmployeeEmail</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>EmployeeGender__c</fullName>
+        <externalId>false</externalId>
+        <label>EmployeeGender</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Male</fullName>
+                <default>true</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Female</fullName>
+                <default>false</default>
+            </picklistValues>
+            <restrictedPicklist>true</restrictedPicklist>
+            <sorted>false</sorted>
+        </picklist>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>EmployeeMobile__c</fullName>
+        <description>Mobile number</description>
+        <externalId>false</externalId>
+        <label>EmployeeMobile</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
     <label>Employee</label>
     <nameField>
         <label>Employee Name</label>

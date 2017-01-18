@@ -3,7 +3,16 @@
     <version>37.0</version>
     <types>
         <members>ApxCls001</members>
+        <members>ApxCls002</members>
         <name>ApexClass</name>
+    </types>
+    <types>
+        <members>Employee__c.EmployeeAbout__c</members>
+        <members>Employee__c.EmployeeDOB__c</members>
+        <members>Employee__c.EmployeeEmail__c</members>
+        <members>Employee__c.EmployeeGender__c</members>
+        <members>Employee__c.EmployeeMobile__c</members>
+        <name>CustomField</name>
     </types>
     <types>
         <members>Employee__c</members>
