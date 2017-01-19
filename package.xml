@@ -4,6 +4,8 @@
     <types>
         <members>ApxCls001</members>
         <members>ApxCls002</members>
+        <members>ApxCls003</members>
+        <members>ApxCls004</members>
         <name>ApexClass</name>
     </types>
     <types>
@@ -17,6 +19,18 @@
     <types>
         <members>Employee__c</members>
         <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Employee__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>Employee__c-Employee Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Employee__c.All</members>
+        <name>ListView</name>
     </types>
     <types>
         <members>Admin</members>
@@ -34,6 +48,7 @@
         <members>CustomProfile1</members>
         <members>CustomProfile2</members>
         <members>CustomProfile3</members>
+        <members>CustomProfile4</members>
         <members>Customer Community Login User</members>
         <members>Customer Community Plus Login User</members>
         <members>Customer Community Plus User</members>
@@ -59,6 +74,10 @@
         <members>StandardAul</members>
         <members>Work%2Ecom Only User</members>
         <name>Profile</name>
+    </types>
+    <types>
+        <members>Employee__c</members>
+        <name>SharingRules</name>
     </types>
     <types>
         <members>Employee__c.Employee_Created_filed_modified_in_org_38</members>
