@@ -19,6 +19,7 @@
     </types>
     <types>
         <members>ARCL1</members>
+        <members>ARCL2</members>
         <name>CustomLabel</name>
     </types>
     <types>
