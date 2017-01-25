@@ -6,6 +6,7 @@
         <members>ApxCls002</members>
         <members>ApxCls003</members>
         <members>ApxCls004</members>
+        <members>ApxCls005</members>
         <name>ApexClass</name>
     </types>
     <types>
@@ -15,6 +16,10 @@
         <members>Employee__c.EmployeeGender__c</members>
         <members>Employee__c.EmployeeMobile__c</members>
         <name>CustomField</name>
+    </types>
+    <types>
+        <members>ARCL1</members>
+        <name>CustomLabel</name>
     </types>
     <types>
         <members>Employee__c</members>
